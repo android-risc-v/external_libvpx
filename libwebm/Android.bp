@@ -17,7 +17,7 @@ cc_library_static {
     export_include_dirs: ["."],
     sanitize: {
         // Enable CFI if this becomes a shared library.
-        // cfi: true,
+        // cfi: false,
     },
     min_sdk_version: "29",
     host_supported: true,
